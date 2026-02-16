@@ -1,8 +1,9 @@
 body {
-    background-color: #cb6022;
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #222;
 }
 
 header {
@@ -48,4 +49,27 @@ footer {
 .flex-container {
     display: flex;
     gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    text-decoration: underline;
 }
