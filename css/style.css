@@ -27,10 +27,6 @@ footer {
     text-align: center;
     padding: 15px;
 }
-.content {
-    max-width: 900px;
-    margin: auto;
-}
 
 .info-section {
     background-color: white;
@@ -45,10 +41,6 @@ footer {
 
 #music {
     border-left: 5px solid #777;
-}
-.flex-container {
-    display: flex;
-    gap: 20px;
 }
 
 nav ul {
